@@ -1,0 +1,18 @@
+{
+  "name":"JBoss BPM Suite and Signavio Demo",
+  "summary":"The example project mortgage demo that is delivered with the JBoss BPM product, features BPM with task integration, rule integration, web service with exception handling, and multiple swimlanes for task assignments. Install options - local, OpenShift and Docker.",
+  "author":"Babak Mozaffari, Andrew Block, Eric D. Schabell", 
+  "categories":["brms","bpms"],
+  "level":"Easy Peasy",
+  "published":true,
+  "prerequisites":"Java 1.7",
+  "targetProduct":"JBoss BPM Suite",
+  "productVersion":"JBoss BPM Suite 6.0.3",
+  "technologies": ["JBoss BPM Suite, Signavio Process Editor"],
+  "links": [ 
+    { 
+      "name":"Code",
+      "url":"https://github.com/jbossdemocentral/bpms-signavio-demo"
+    }
+  ]
+}
