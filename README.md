@@ -1,5 +1,5 @@
-JBoss BPM Suite Mortgage Demo 
-=============================
+JBoss BPM Suite and Signavio Process Editor Demo 
+================================================
 The example project mortgage demo that is delivered with the JBoss BPM product.
 
 There are three options available to you for using this demo; local, OpenShift and Docker.
@@ -32,67 +32,6 @@ requests just run the client jar from a command line shell. You can run the foll
     ```
    java -jar jboss-mortgage-demo-client.jar erics bpmsuite1!
     ```
-
-
-Option 2 - Install with one click in xPaaS (bpmPaaS)
-----------------------------------------------------
-After clicking button, ensure `Gear` size is set to `medium`:
-
-[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Install bpmPaaS.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=https://raw.githubusercontent.com/jbossdemocentral/cartridge-bpmPaaS-mortgage-demo/master/metadata/manifest.yml&name=bpmpaasmortgage&gear_profile=medium&initial_git_url=)
-
-Once installed you can use the JBoss BPM Suite logins: 
-
-   * u:erics   p: bpmsuite  (admin)
-
-   * u: alan   p: bpmsuite  (analyst)
-
-   * u: daniel p: bpmsuite (developer)
-
-   * u: ursla  p: bpmsuite (user)
-
-   * u: mary   p: bpmsuite (manager)
-
-
-
-Option 3 - Generate docker install
-----------------------------------
-The following steps can be used to configure and run the demo in a docker container
-
-1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-mortgage-demo/archive/master.zip)
-
-2. Add product installer to installs directory.
-
-3. Copy contents of support/docker directory to the project root.
-
-4. Build demo image.
-
-	```
-	docker build -t jbossdemocentral/bpms-mortgage-demo .
-	```
-5. Start demo container.
-
-	```
-	docker run --it -p 8080:8080 -p 9990:9990 jbossdemocentral/bpms-mortgage-demo
-	```
-6. Login to http://localhost:8080/business-central  
-
-    ```
-    - login for admin, appraisor, broker, and manager roles (u:erics / p:bpmsuite1!)
-    ```
-
-7. Mortgage Loan demo pre-installed as project.
-
-8. Process and Task dashboard pre-filled with mock data optional now. 
-
-9. You can pre-load the BPM Suite Mortgage project with multiple pre-configured process instances, some will run through the
-rejected path, some will be waiting for you in the various human task when you login. To inject these pre-configured
-requests just run the client jar from a command line shell. You can run the following command inside your container from the '/opt/jboss/support' directory:
-
-    ```
-   java -jar jboss-mortgage-demo-client.jar erics bpmsuite1!
-    ```
-
-Additional information can be found in the jbossdemocentral docker [developer repository](https://github.com/jbossdemocentral/docker-developer)
 
 
 Notes
@@ -149,39 +88,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.9 - JBoss BPM Suite 6.0.3 with automated task reassignment.
-
-- v1.8 - JBoss BPM Suite 6.0.3 with optional docker installation.
-
-- v1.7 - moved to JBoss Demo Central, updated windows init.bat support and one click install button.
- 
-- v1.6 - JBoss BPM Suite 6.0.3 installer with mortgage demo installed.
-
-- v1.5 - JBoss BPM Suite 6.0.2 installer used, with mortgage demo installed and demo client jar sources added.
-
-- v1.4 - JBoss BPM Suite 6.0.2 installer used, with mortgage demo installed.
-
-- v1.3 - JBoss BPM Suite 6.0.2, JBoss EAP 6.1.1, and mortgage demo installed.
-
-- v1.2 - JBoss BPM Suite 6.0.1, JBoss EAP 6.1.1, and mortgage demo installed.
-
-- v1.1 - JBoss BPM Suite 6.0.0, JBoss EAP 6.1.1, and mortgage demo installed, mock data question removed.
-
-- v1.0 - JBoss BPM Suite 6.0.0, JBoss EAP 6.1.1, and mortgage demo installed.
-
-- v0.7 - JBoss BPM Suite 6.0.0.CR2, JBoss EAP 6.1.1, and mortgage demo installed.
-
-- v0.6 - JBoss BPM Suite 6.0.0.CR1, JBoss EAP 6.1.1, and mortgage demo installed, optional mock data population.
-
-- v0.5 - JBoss BPM Suite 6.0.0.CR1, JBoss EAP 6.1.1, and mortgage demo installed, optional mock data population.
-
-- v0.4 - JBoss BPM Suite 6.0.0.Beta, JBoss EAP 6.1.1, mock data populated in Process and Task dashboard, and mortgage demo installed.
-
-- v0.3 - JBoss BPM Suite 6.0.0.Beta1, JBoss EAP 6.0, and mortgage demo installed.
-
-- v0.2 - JBoss BPM Suite ER4, JBoss EAP 6.0, new roles assignment, and mortgage demo installed.
-
-- v0.1 - JBoss BPM Suite ER3, JBoss EAP 6.0, and mortgage demo installed.
+- v0.1 - JBoss BPM Suite 6.0.3, Signavio Process Editor 8.6.0, and dual process definitions of mortgage demo installed.
 
 
 ![Mortgage Process](https://github.com/jbossdemocentral/bpms-mortgage-demo/blob/master/docs/demo-images/mortgage-process.png?raw=true)
