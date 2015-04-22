@@ -157,14 +157,6 @@ echo =  into JBoss BPM Suite process designer after login. The file is found at:
 echo =                                                                                         = 
 echo =    support/MortageDemoSignavio.bpmn                                                     = 
 echo =                                                                                         = 
-echo =  PRE-LOAD DEMO                                                                          =
-echo =  =============                                                                          =
-echo =  To load the BPM with a set of process instances, you can run the following command     =
-echo =  after you start JBoss BPM Suite, build and deploy the mortgage project, then you can   =
-echo =  use the helper jar file found in the support directory as follows:                     =
-echo =                                                                                         = 
-echo =    $ java -jar support\jboss-mortgage-demo-client.jar erics bpmsuite1!                  = 
-echo =                                                                                         = 
 echo =                                                                                         = 
 echo =  %DEMO% Setup Complete.                              =
 echo =                                                                                         = 

@@ -24,45 +24,8 @@ Install on your machine
 
 7. Using process designer, import the Signavio process that was exported to the file found in support/MortgageDemoSignavio.bpmn.
 
-8. You can also pre-load the BPM Suite Mortgage project with multiple pre-configured process instances, some will run through the
-rejected path, some will be waiting for you in the various human task when you login. To inject these pre-configured
-requests just run the client jar from a command line shell. You can run the following command from the 'support' directory:
-
-    ```
-   java -jar jboss-mortgage-demo-client.jar erics bpmsuite1!
-    ```
-
-Notes
------
-The following functionality is covered:
-
-- One advanced process.
-
-- Four Human Tasks assigned to 3 different roles
-
-- Use of Swimlanes to assign a task to the user who previously took ownership
-
-- Several guide business rules
-
-- Several technical rules
-
-- A guided web decision table
-
-- Several Script Tasks for Java work
-
-- One Web Service task using SOAP/HTTP
-
-- Exclusive use of the BPMS Data Modeler for creating the Java fact model
-
-- Use of graphic form designer to create 4 forms with an example of javascript validation
-
-- Helper jar to pre-load with sixteen process instances in various states.
-
-For 'Appraisal' task only, any claimed tasks that are not competed within a minute will be reassigned automatically back into the group for processing.
-
-Note that the entire demo is running default in memory, restart server, lose your process instances, data, monitoring history.
-
-Sources for the demo client jar can be found in the projects directory.
+8. See screenshots below for how this should look and note that the JBoss BPM Suite process designer included validation that puts
+	 messages about tasks not specified, this is correct as at this point you need to start implementing the process tasks.
 
 
 Supporting Articles
@@ -83,5 +46,6 @@ See the tagged releases for the following versions of the product:
 ![5](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/5-signavio-bpmn-imported.png)
 ![6](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/6-signavio-replace-existing.png)
 ![7](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/7-signavio-imported-results.png)
-![8](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/8-signavio-description-node.png)
-![9](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/9-signavio-credit-service.png)
+![8](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/8-signavio-validation-messages.png)
+![9](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/9-signavio-description-node.png)
+![10](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/10-signavio-credit-service.png)
