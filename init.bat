@@ -33,6 +33,15 @@ echo ##     ####  ####  #  #  #     ##  #   #   #     #   ###       ##
 echo ##     #   # #     #     #       # #   #   #     #   #         ##
 echo ##     ####  #     #     #    ###  ##### #####   #   #####     ##
 echo ##                                                             ##   
+echo ##                            #                                ##   
+echo ##                          #####                              ##   
+echo ##                            #                                ##   
+echo ##                                                             ##   
+echo ##      #### #####  #### #   #  ####  #   # #####  ###         ##   
+echo ##     #       #   #     ##  # #    # #   #   #   #   #        ##   
+echo ##      ###    #   #  ## # # # ###### #   #   #   #   #        ##   
+echo ##         #   #   #   # #  ## #    #  # #    #   #   #        ##   
+echo ##     ####  #####  #### #   # #    #   #   #####  ###         ##   
 echo ##                                                             ##   
 echo ##  brought to you by,                                         ##   
 echo ##            %AUTHORS%  ##
@@ -129,19 +138,36 @@ echo.
 xcopy /Y /Q "%SUPPORT_DIR%\%WEBSERVICE%" "%SERVER_DIR%"
 echo. 
 
+REM Final instructions to user to start and run demo.
 echo.
-echo You can now start the %PRODUCT% with %SERVER_BIN%\standalone.bat
+echo ===========================================================================================
+echo =                                                                                         = 
+echo =  Start JBoss BPM Suite server:                                                          =
+echo =                                                                                         = 
+echo =    $ %SERVER_BIN%\standalone.sh                                          =
+echo =                                                                                         = 
+echo =  Login to business central to build & deploy project at:                                =
+echo =                                                                                         = 
+echo =    http://localhost:8880/business-central     u:erics  p:bpmsuite1!                     =
+echo =                                                                                         = 
+echo =  Signavio Process Editor was used to design the Mortgage process and each task was      = 
+echo =  given a description of what needs to be achieved in that step of the process. The      = 
+echo =  process was then exported to a file you can find in the support directory to import    = 
+echo =  into JBoss BPM Suite process designer after login. The file is found at:               = 
+echo =                                                                                         = 
+echo =    support/MortageDemoSignavio.bpmn                                                     = 
+echo =                                                                                         = 
+echo =  PRE-LOAD DEMO                                                                          =
+echo =  =============                                                                          =
+echo =  To load the BPM with a set of process instances, you can run the following command     =
+echo =  after you start JBoss BPM Suite, build and deploy the mortgage project, then you can   =
+echo =  use the helper jar file found in the support directory as follows:                     =
+echo =                                                                                         = 
+echo =    $ java -jar support\jboss-mortgage-demo-client.jar erics bpmsuite1!                  = 
+echo =                                                                                         = 
+echo =                                                                                         = 
+echo =  %DEMO% Setup Complete.                              =
+echo =                                                                                         = 
+echo ===========================================================================================
 echo.
-
-echo PRE-LOAD MORTGAGE DEMO
-echo ======================
-echo To load the BPM with a set of process instances, you can run the following
-echo command after you start JBoss BPM Suite, build and deploy the mortgage
-echo project, then you can use the helper jar file found in the support directory
-echo as follows:
-echo. 
-echo    java -jar jboss-mortgage-demo-client.jar erics bpmsuite1!
-echo.
-
-echo %PRODUCT% %VERSION% %DEMO% Setup Complete.
-echo.
+ 
