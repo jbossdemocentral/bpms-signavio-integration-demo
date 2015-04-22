@@ -88,7 +88,12 @@ See the tagged releases for the following versions of the product:
 
 - v0.1 - JBoss BPM Suite 6.1.0, Signavio Process Editor 8.6.0, and mortgage demo installed with Signavio designed process for import.
 
-![Mortgage Process](https://github.com/jbossdemocentral/bpms-mortgage-demo/blob/master/docs/demo-images/mortgage-process.png?raw=true)
-
-![Process and Task Dashboard](https://github.com/jbossdemocentral/bpms-mortgage-demo/blob/master/docs/demo-images/mock-bpm-data.png?raw=true)
-
+![1](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/1-signavio-create-new.png)
+![2](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/2-signavio-name-process.png)
+![3](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/3-signavio-import-bpmn.png)
+![4](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/4-signavio-file-import.png)
+![5](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/5-signavio-bpmn-imported.png)
+![6](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/6-signavio-replace-existing.png)
+![7](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/7-signavio-imported-results.png)
+![8](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/8-signavio-description-node.png)
+![9](https://raw.githubusercontent.com/eschabell/bpms-signavio-integration-demo/master/docs/demo-images/9-signavio-credit-service.png)
