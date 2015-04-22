@@ -1,12 +1,11 @@
 JBoss BPM Suite and Signavio Process Editor Demo 
 ================================================
-The example project mortgage demo that is delivered with the JBoss BPM product.
+The example project mortgage demo that is delivered with the JBoss BPM product, but in this case we are importing
+the process as designed externally in the Signavio Process Designer.
 
-There are three options available to you for using this demo; local, OpenShift and Docker.
 
-
-Option 1 - Install on your machine
-----------------------------------
+Install on your machine
+-----------------------
 1. [Download and unzip.](https://github.com/jbossdemocentral/bpms-mortgage-demo/archive/master.zip)
 
 2. Add products to installs directory.
@@ -23,16 +22,15 @@ Option 1 - Install on your machine
 
 6. Mortgage Loan demo pre-installed as project.
 
-7. Process and Task dashboard pre-filled with mock data optional now. 
+7. Using process designer, import the Signavio process that was exported to the file found in support/MortgageDemoSignavio.bpmn.
 
-8. You can pre-load the BPM Suite Mortgage project with multiple pre-configured process instances, some will run through the
+8. You can also pre-load the BPM Suite Mortgage project with multiple pre-configured process instances, some will run through the
 rejected path, some will be waiting for you in the various human task when you login. To inject these pre-configured
 requests just run the client jar from a command line shell. You can run the following command from the 'support' directory:
 
     ```
    java -jar jboss-mortgage-demo-client.jar erics bpmsuite1!
     ```
-
 
 Notes
 -----
@@ -88,8 +86,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v0.1 - JBoss BPM Suite 6.0.3, Signavio Process Editor 8.6.0, and dual process definitions of mortgage demo installed.
-
+- v0.1 - JBoss BPM Suite 6.1.0, Signavio Process Editor 8.6.0, and mortgage demo installed with Signavio designed process for import.
 
 ![Mortgage Process](https://github.com/jbossdemocentral/bpms-mortgage-demo/blob/master/docs/demo-images/mortgage-process.png?raw=true)
 
