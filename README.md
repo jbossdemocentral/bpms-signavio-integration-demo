@@ -1,5 +1,5 @@
-JBoss BPM Suite and Signavio Process Editor Demo 
-================================================
+JBoss BPM Suite & Signavio Process Editor
+=========================================
 The example project mortgage demo that is delivered with the JBoss BPM product, but in this case we are importing
 the process as designed externally in the Signavio Process Editor.
 
