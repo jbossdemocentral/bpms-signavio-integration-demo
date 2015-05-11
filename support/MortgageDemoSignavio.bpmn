@@ -173,7 +173,7 @@ low approval or sufficient approval
       </exclusiveGateway>
       <task completionQuantity="1" id="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8" isForCompensation="false" name="Approve Mortgage" startQuantity="1">
          <documentation id="sid-7717b5fe-05e4-4d05-b1c0-862f250d7b5e">log statement created
-"denied!"
+"accepted!"
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
