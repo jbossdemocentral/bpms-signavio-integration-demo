@@ -41,7 +41,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v0.1 - JBoss BPM Suite 6.1.0, Signavio Process Editor 8.6.0, and mortgage demo installed with Signavio designed process for import.
+- v1.0 - JBoss BPM Suite 6.1.0, Signavio Process Editor 8.6.0, and mortgage demo installed with Signavio designed process for import.
 
 ![1](https://raw.githubusercontent.com/jbossdemocentral/bpms-signavio-integration-demo/master/docs/demo-images/1-signavio-create-new.png)
 
