@@ -35,6 +35,8 @@ Install on your machine
 
 Supporting Articles
 -------------------
+[Webinar: Developing process-enabled applications with BPA and BPM tools](http://www.schabell.org/2015/07/webinar-developing-jboss-bpms-enabled-apps-with-signavio.html)
+
 [From Design to Execution with JBoss BPM Suite & Signavio Process Editor](http://www.schabell.org/2015/06/design-to-execution-with-jboss-bpmsuite-signavio.html)
 
 
