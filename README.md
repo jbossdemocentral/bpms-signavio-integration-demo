@@ -23,10 +23,12 @@ Install on your machine
 
 6. Mortgage Loan demo pre-installed as project.
 
-7. Using process designer, import the Signavio process that was exported to the file found in:
+7. Using process designer, import any of the Signavio process examples that were exported to the files found here:
 
    ```
    support/MortgageDemoSignavio.bpmn
+
+   support/MortgageDemoSignavioi2.bpmn
    ```
 
 8. See screenshots below for how this should look and note that the JBoss BPM Suite process designer included validation that puts
