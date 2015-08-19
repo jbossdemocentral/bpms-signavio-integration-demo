@@ -1,55 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="9.2.1" expressionLanguage="http://www.w3.org/1999/XPath" id="sid-1cf0c311-f8a8-4682-a634-259d7f2b2487" targetNamespace="http://www.signavio.com/bpmn20" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
-   <error id="sid-eb2d5add-2b86-4335-a605-f82e787d47f7"/>
-   <process id="sid-90b98641-2421-4f1e-b4b6-56afc22f703d" isClosed="false" isExecutable="false" processType="None">
+<?xml version="1.0" encoding="UTF-8"?><definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:signavio="http://www.signavio.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exporter="Signavio Process Editor, http://www.signavio.com" exporterVersion="9.2.1" expressionLanguage="http://www.w3.org/1999/XPath" id="sid-4aafcd5e-1024-44ce-9aaa-928daee7ec9b" targetNamespace="http://www.signavio.com/bpmn20" typeLanguage="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
+   <error id="sid-80504e10-a925-4ed8-81b9-b88ad87b4c8e"/>
+   <process id="sid-6798d022-e2f4-4e76-9bb5-6a634c2f5997" isClosed="false" isExecutable="false" processType="None">
       <extensionElements>
-         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="94add838659741ab92218d569cd37e80"/>
+         <signavio:signavioDiagramMetaData metaKey="revisionid" metaValue="64a0183cfdb6417b9a024de5dcdc2362"/>
       </extensionElements>
-      <startEvent id="sid-6F7488EF-6EA8-466D-B8CE-F5302F1784D7">
+      <startEvent id="sid-6F7488EF-6EA8-466D-B8CE-F5302F1784D7" name="Mortage Application&#10; Received">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="vorgngerprozesse" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="inputprocessdiagrams" metaValue="[]"/>
             <signavio:signavioMetaData metaKey="preceedingprocesses" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
          </extensionElements>
          <outgoing>sid-DC2D949B-6514-4627-A369-233EA47C6E0D</outgoing>
       </startEvent>
-      <serviceTask completionQuantity="1" id="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53" implementation="##WebService" isForCompensation="false" name="Credit Report" startQuantity="1">
-         <documentation id="sid-3c19203b-549f-4efc-b58b-ffcc1677cd1a">call the credit service
+      <serviceTask completionQuantity="1" id="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53" implementation="##WebService" isForCompensation="false" name="Get Creditscore for Borrower" startQuantity="1">
+         <documentation id="sid-6182db1f-fd89-462c-9cfc-d59e5d9f5834">call the credit service
 getCreditScore()
 
 
 </documentation>
          <extensionElements>
-            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FFFFCC"/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-1210B837-9EDA-40DA-9A35-606F12A0B7A2</incoming>
          <outgoing>sid-F2341933-0F3E-49F9-8242-825B170EB33C</outgoing>
@@ -57,16 +43,14 @@ getCreditScore()
       <exclusiveGateway gatewayDirection="Converging" id="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
          </extensionElements>
+         <incoming>sid-F2341933-0F3E-49F9-8242-825B170EB33C</incoming>
          <incoming>sid-DFA4FD34-B235-4813-833C-21D5D12FD724</incoming>
          <incoming>sid-CD8F5A1F-A6AF-4E2D-AF2B-3543C19C9E60</incoming>
-         <incoming>sid-F2341933-0F3E-49F9-8242-825B170EB33C</incoming>
          <outgoing>sid-97BA1524-603B-4CEA-9395-C9BC55D3302B</outgoing>
       </exclusiveGateway>
-      <businessRuleTask completionQuantity="1" id="sid-A2FD7B20-7D2C-47ED-8A02-F1CF349DA5FC" implementation="##WebService" isForCompensation="false" name="Manage Calculations" startQuantity="1">
-         <documentation id="sid-6bd1204f-5235-49e8-97f9-8a3a1d8e63f3">on entry gets used again
+      <businessRuleTask completionQuantity="1" id="sid-A2FD7B20-7D2C-47ED-8A02-F1CF349DA5FC" implementation="##WebService" isForCompensation="false" name="Calculate Mortgage Amount" startQuantity="1">
+         <documentation id="sid-dc61f080-e78b-4f96-a018-392eed0570ee">on entry gets used again
 calculate mortgage amount
 insert applicant, property and application
 if available = getAppraisal()
@@ -78,121 +62,86 @@ apr-calculation
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-97BA1524-603B-4CEA-9395-C9BC55D3302B</incoming>
          <outgoing>sid-A6DDFDB7-46F5-4F5F-99A9-D9AEA0080182</outgoing>
       </businessRuleTask>
-      <scriptTask completionQuantity="1" id="sid-D19EBA4C-722D-4970-84E2-8D46A6B0C09A" isForCompensation="false" name="Qualify Borrower" scriptFormat="" startQuantity="1">
-         <documentation id="sid-c913fb47-ff7f-4cbb-b611-3c17ede22ace">Script task
+      <scriptTask completionQuantity="1" id="sid-D19EBA4C-722D-4970-84E2-8D46A6B0C09A" isForCompensation="false" name="Automatically qualify Mortgage Application" scriptFormat="" startQuantity="1">
+         <documentation id="sid-6fecfd65-c353-40fa-bf3a-33d973dca233">Script task
 User inserts financial calculations (script/algorithm) to qualify borrower
 yes/no qualified needs to be set
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-A6DDFDB7-46F5-4F5F-99A9-D9AEA0080182</incoming>
          <outgoing>sid-E4A12DC9-55C7-45F0-90AC-D09FAA759F58</outgoing>
          <script/>
       </scriptTask>
       <userTask completionQuantity="1" id="sid-B645AC05-92A8-445B-A6B5-C5791AAC230B" implementation="##WebService" isForCompensation="false" name="Troubleshoot" startQuantity="1">
-         <documentation id="sid-fe0a55b7-4c9a-4588-88ae-885e333d8dfd">human task (admin user) 
+         <documentation id="sid-730b7e52-795a-46f7-a99b-d3357880191d">human task (admin user) 
 inspect error
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-F72E2001-346E-4265-9794-5C1E69A708AE</incoming>
          <outgoing>sid-61FDB1A1-79B4-4C24-8725-DB229D40A728</outgoing>
       </userTask>
-      <exclusiveGateway gatewayDirection="Diverging" id="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5">
+      <exclusiveGateway gatewayDirection="Diverging" id="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5" name="Mortgage Application&#10;qualified?">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
             <signavio:signavioLabel align="center" bottom="false" left="false" ref="text_name" right="false" top="true" valign="bottom" x="20.0" y="-8.0"/>
          </extensionElements>
          <incoming>sid-E4A12DC9-55C7-45F0-90AC-D09FAA759F58</incoming>
@@ -202,69 +151,52 @@ inspect error
       <exclusiveGateway gatewayDirection="Converging" id="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
          </extensionElements>
          <incoming>sid-5654713C-899C-4CBB-B17B-B03A4BFFEDD9</incoming>
          <incoming>sid-020C41CF-D0FE-484D-9DDA-8D681643866A</incoming>
          <outgoing>sid-7B4FF0AB-80F9-4241-B4E7-2A758E57D318</outgoing>
       </exclusiveGateway>
-      <exclusiveGateway gatewayDirection="Diverging" id="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48">
+      <exclusiveGateway gatewayDirection="Diverging" id="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48" name="Positive Review?">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
             <signavio:signavioLabel align="center" bottom="false" left="false" ref="text_name" right="false" top="true" valign="bottom" x="20.0" y="-8.0"/>
          </extensionElements>
          <incoming>sid-E568863F-1E57-4DFD-90DE-7CD33C9148AC</incoming>
          <outgoing>sid-1DA1E021-3477-4059-9683-6E66454F27E2</outgoing>
          <outgoing>sid-020C41CF-D0FE-484D-9DDA-8D681643866A</outgoing>
       </exclusiveGateway>
-      <exclusiveGateway gatewayDirection="Diverging" id="sid-18F0A558-24FA-4FDD-9974-B41597802145" name="Appraisal?">
+      <exclusiveGateway gatewayDirection="Diverging" id="sid-18F0A558-24FA-4FDD-9974-B41597802145" name="Appraisal already&#10;set?">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
          </extensionElements>
          <incoming>sid-7B4FF0AB-80F9-4241-B4E7-2A758E57D318</incoming>
          <outgoing>sid-62B43310-44D1-4682-B741-C6B033A7E585</outgoing>
          <outgoing>sid-D881681B-9F01-4E56-9A0D-7306E680C67A</outgoing>
       </exclusiveGateway>
-      <userTask completionQuantity="1" id="sid-EFA7D286-C7F3-487E-BA06-E988ECEBCF30" implementation="##WebService" isForCompensation="false" name="Appraisal" startQuantity="1">
-         <documentation id="sid-e937d857-d688-4c3d-8b43-50413c45b60c">Property data in form
+      <userTask completionQuantity="1" id="sid-EFA7D286-C7F3-487E-BA06-E988ECEBCF30" implementation="##WebService" isForCompensation="false" name="Manually appraise Borrower" startQuantity="1">
+         <documentation id="sid-f2ce1fcb-0d50-4615-8b8b-6e5306ccea3a">Property data in form
 read only
 appraisal value must be set
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-D881681B-9F01-4E56-9A0D-7306E680C67A</incoming>
          <outgoing>sid-7BC07D4D-64DE-4F31-BDF1-0EDE7EBB8C09</outgoing>
@@ -272,167 +204,120 @@ appraisal value must be set
       <exclusiveGateway gatewayDirection="Converging" id="sid-7F181066-63F5-4B15-AB64-6736FBD81762">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
          </extensionElements>
          <incoming>sid-62B43310-44D1-4682-B741-C6B033A7E585</incoming>
          <incoming>sid-708E7BF1-26A8-429E-9AF0-2701C8B391C2</incoming>
          <outgoing>sid-FF4EA199-ECDC-4C75-8D42-8587BFC6DA44</outgoing>
       </exclusiveGateway>
-      <exclusiveGateway gatewayDirection="Diverging" id="sid-9B8C1F60-43B9-4597-843C-72D349FD644A">
-         <documentation id="sid-f6c54c46-9a54-4ea6-bd47-9afe5d904817">appraisal higher or lower then property price
+      <exclusiveGateway gatewayDirection="Diverging" id="sid-9B8C1F60-43B9-4597-843C-72D349FD644A" name="Sufficient Appraisal?">
+         <documentation id="sid-a6975049-62e4-4592-a40d-36cecd502754">appraisal higher or lower then property price
 low approval or sufficient approval
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
          </extensionElements>
          <incoming>sid-7BC07D4D-64DE-4F31-BDF1-0EDE7EBB8C09</incoming>
          <outgoing>sid-708E7BF1-26A8-429E-9AF0-2701C8B391C2</outgoing>
          <outgoing>sid-CD8F5A1F-A6AF-4E2D-AF2B-3543C19C9E60</outgoing>
       </exclusiveGateway>
-      <scriptTask completionQuantity="1" id="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8" isForCompensation="false" name="Approve Mortgage" scriptFormat="" startQuantity="1">
-         <documentation id="sid-d743c9af-1301-49ae-9e70-0c3cc265ae8b">log statement created
+      <scriptTask completionQuantity="1" id="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8" isForCompensation="false" name="Approve Mortage" scriptFormat="" startQuantity="1">
+         <documentation id="sid-85a0a5a3-f4e9-4b92-ac01-dbd93bdf5fdb">log statement created
 "accepted!"
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-FF4EA199-ECDC-4C75-8D42-8587BFC6DA44</incoming>
          <outgoing>sid-C6D793AF-E9FF-4555-8126-A7C19DAE0B14</outgoing>
          <script/>
       </scriptTask>
-      <endEvent id="sid-0D6A54D3-2326-4305-A323-3FFC8A7C0D12">
+      <endEvent id="sid-0D6A54D3-2326-4305-A323-3FFC8A7C0D12" name="Mortgage Approved">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="followingprocessdiagrams" metaValue="[]"/>
             <signavio:signavioMetaData metaKey="followingprocesses" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="nachfolgerprozesse" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="folgeprozesse" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="folgeprozess" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-C6D793AF-E9FF-4555-8126-A7C19DAE0B14</incoming>
       </endEvent>
-      <scriptTask completionQuantity="1" id="sid-5CEEB474-69D7-49AF-B44F-7166024CEA51" isForCompensation="false" name="Deny Mortgage" scriptFormat="" startQuantity="1">
-         <documentation id="sid-5178ada3-4344-4a50-ba15-c363e74483f3">log statement created
+      <scriptTask completionQuantity="1" id="sid-5CEEB474-69D7-49AF-B44F-7166024CEA51" isForCompensation="false" name="Deny Mortage" scriptFormat="" startQuantity="1">
+         <documentation id="sid-0ec81d0c-dcda-44a9-9fec-b8d00d2b6b99">log statement created
 "denied!"
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-1DA1E021-3477-4059-9683-6E66454F27E2</incoming>
          <outgoing>sid-4BEB0618-FC83-4E90-888F-051CB53D9F55</outgoing>
          <script/>
       </scriptTask>
-      <endEvent id="sid-0BF49EAB-47C9-4E90-BF02-0DBD3E399CB5">
+      <endEvent id="sid-0BF49EAB-47C9-4E90-BF02-0DBD3E399CB5" name="Mortgage Denied">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="followingprocessdiagrams" metaValue="[]"/>
             <signavio:signavioMetaData metaKey="followingprocesses" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="nachfolgerprozesse" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="folgeprozesse" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="folgeprozess" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-4BEB0618-FC83-4E90-888F-051CB53D9F55</incoming>
       </endEvent>
       <businessRuleTask completionQuantity="1" id="sid-C88C3477-43D1-4DD7-8196-9BAD15757C9C" implementation="##WebService" isForCompensation="false" name="Reset Validation" startQuantity="1">
-         <documentation id="sid-89b84a84-d8a6-44c3-9255-d3b461c0c1da">using rules to reset validation
+         <documentation id="sid-6bd44fa3-d4ce-496f-b224-c52c5d328427">using rules to reset validation
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-A39C9252-3F9C-4A87-822E-7A8AC1F09EC5</incoming>
          <outgoing>sid-20CE19F0-6407-49C8-8961-04CC89AB8A88</outgoing>
       </businessRuleTask>
       <userTask completionQuantity="1" id="sid-B419E41A-4740-400C-94F2-334AC5FCDCCF" implementation="##WebService" isForCompensation="false" name="Suggest Down Payment increase" startQuantity="1">
-         <documentation id="sid-e97f90a3-093a-44af-aeb1-bbf137c4f5bf">human task
+         <documentation id="sid-0c819275-d3f0-481e-a748-4df1b606dab6">human task
 increase down payment with compact form
 (Property sale price)
 (Appraised value)
@@ -447,51 +332,38 @@ broker does it
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-2D41FC71-3BE7-4F17-AC5F-7E20DFFD9632</incoming>
          <outgoing>sid-C9350917-AAEB-412A-8ABF-CB49209F6849</outgoing>
       </userTask>
-      <exclusiveGateway gatewayDirection="Diverging" id="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29">
+      <exclusiveGateway gatewayDirection="Diverging" id="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29" name="Payment Increased?">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
             <signavio:signavioLabel align="center" ref="text_name" valign="middle" x="-46.0" y="41.0"/>
          </extensionElements>
          <incoming>sid-C9350917-AAEB-412A-8ABF-CB49209F6849</incoming>
          <outgoing>sid-DFA4FD34-B235-4813-833C-21D5D12FD724</outgoing>
          <outgoing>sid-33900317-1E8A-4C24-918B-7616974708CB</outgoing>
       </exclusiveGateway>
-      <userTask completionQuantity="1" id="sid-68C8F1C9-3EC1-4A4E-AECC-F2CA943872B4" implementation="##WebService" isForCompensation="false" name="Individual Financial Review" startQuantity="1">
-         <documentation id="sid-042c68cb-c9f4-4eb1-911f-7796d0c772f3">human task
+      <userTask completionQuantity="1" id="sid-68C8F1C9-3EC1-4A4E-AECC-F2CA943872B4" implementation="##WebService" isForCompensation="false" name="Review Financials individually" startQuantity="1">
+         <documentation id="sid-f38149d2-ffbc-4745-a266-c3cbf10eae1d">human task
 entire application form
 checkbox
 approve (yes/no; boolean)
@@ -500,73 +372,51 @@ done by manager
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-33900317-1E8A-4C24-918B-7616974708CB</incoming>
          <outgoing>sid-E568863F-1E57-4DFD-90DE-7CD33C9148AC</outgoing>
       </userTask>
-      <userTask completionQuantity="1" id="sid-C77BC6A0-7FF1-445A-82C0-0C6B5C74AE33" implementation="##WebService" isForCompensation="false" name="Data Correction" startQuantity="1">
-         <documentation id="sid-86d9292c-9e18-4abc-befc-c193921febd5">human task
+      <userTask completionQuantity="1" id="sid-C77BC6A0-7FF1-445A-82C0-0C6B5C74AE33" implementation="##WebService" isForCompensation="false" name="Correct Data" startQuantity="1">
+         <documentation id="sid-d564706a-f8a0-4e60-a742-887d310dbbb5">human task
 broker gets to correct or edit data
 facts from validation (copy of it)
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FFFFCC"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-20CE19F0-6407-49C8-8961-04CC89AB8A88</incoming>
          <outgoing>sid-2CDA55EC-4B0B-4CCB-907C-CD5B6E931AD7</outgoing>
@@ -574,15 +424,13 @@ facts from validation (copy of it)
       <exclusiveGateway gatewayDirection="Converging" id="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
          </extensionElements>
-         <incoming>sid-2CDA55EC-4B0B-4CCB-907C-CD5B6E931AD7</incoming>
          <incoming>sid-DC2D949B-6514-4627-A369-233EA47C6E0D</incoming>
+         <incoming>sid-2CDA55EC-4B0B-4CCB-907C-CD5B6E931AD7</incoming>
          <outgoing>sid-43AA89A4-3FFB-4D3B-BE33-1D2C6A8397A8</outgoing>
       </exclusiveGateway>
-      <businessRuleTask completionQuantity="1" id="sid-E247B962-5044-4107-86BF-AEC2E6077BF0" implementation="##WebService" isForCompensation="false" name="Validation" startQuantity="1">
-         <documentation id="sid-7e4b5655-f6cf-49ba-86c1-09eac48cec1b">On entry:
+      <businessRuleTask completionQuantity="1" id="sid-E247B962-5044-4107-86BF-AEC2E6077BF0" implementation="##WebService" isForCompensation="false" name="Validate Application" startQuantity="1">
+         <documentation id="sid-cabedd70-5108-4b62-849a-3c945eb2581c">On entry:
 calculate mortgage amount
 put in facts 
 applicant
@@ -593,45 +441,32 @@ validation (grouping on jBPM)
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffcc"/>
-            <signavio:signavioMetaData metaKey="meta-hinweis" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-prioritt" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-iks" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdinformiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risikenundkontrollen" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-responsible" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-erteiltfreigabe" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-audit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="externedokumente2" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="saprelevant" metaValue=""/>
-            <signavio:signavioMetaData metaKey="itsmpriority" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-accountable" metaValue=""/>
-            <signavio:signavioMetaData metaKey="riskandcontrol" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-bearbeitungszeit" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-istgesamtverantwortlich" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-dokumentenobjekte" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="externedokumente" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="itsysteme" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-informed" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-fhrtdurch" metaValue=""/>
-            <signavio:signavioMetaData metaKey="risklevel2" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-wirdkonsultiert" metaValue=""/>
-            <signavio:signavioMetaData metaKey="arbeitsanweisung" metaValue="[]"/>
-            <signavio:signavioMetaData metaKey="meta-consulted" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-archimatelink" metaValue=""/>
-            <signavio:signavioMetaData metaKey="meta-testtest" metaValue="Test1"/>
-            <signavio:signavioMetaData metaKey="saptransaktionsnummer" metaValue=""/>
-            <signavio:signavioMetaData metaKey="erteiltfreigabe" metaValue=""/>
+            <signavio:signavioMetaData metaKey="businessunit" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-codcomm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-gcc" metaValue=""/>
+            <signavio:signavioMetaData metaKey="risklevel" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-referencedocument" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="riskscontrols" metaValue=""/>
+            <signavio:signavioMetaData metaKey="isonorm" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-test" metaValue=""/>
+            <signavio:signavioMetaData metaKey="requirements" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="informed" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="soxrelevant" metaValue=""/>
+            <signavio:signavioMetaData metaKey="saptransactioncode" metaValue=""/>
+            <signavio:signavioMetaData metaKey="creditrisk" metaValue=""/>
+            <signavio:signavioMetaData metaKey="externaldocuments" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="regulation" metaValue=""/>
+            <signavio:signavioMetaData metaKey="meta-screenshots" metaValue="[]"/>
+            <signavio:signavioMetaData metaKey="consulted" metaValue="[]"/>
          </extensionElements>
          <incoming>sid-43AA89A4-3FFB-4D3B-BE33-1D2C6A8397A8</incoming>
          <outgoing>sid-F48C282F-802B-44CA-889B-C766176D13D3</outgoing>
       </businessRuleTask>
-      <exclusiveGateway gatewayDirection="Diverging" id="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0">
-         <documentation id="sid-dc3f6974-ea74-43a1-b715-ad6dc900afe9">technical decision
+      <exclusiveGateway gatewayDirection="Diverging" id="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0" name="Application valid?">
+         <documentation id="sid-254f6d23-454d-4ab0-86bc-27ad722c0bc1">technical decision
 </documentation>
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#FFFFFF"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
             <signavio:signavioLabel align="center" bottom="true" left="false" ref="text_name" right="false" top="false" x="20.0" y="45.0"/>
          </extensionElements>
          <incoming>sid-F48C282F-802B-44CA-889B-C766176D13D3</incoming>
@@ -641,185 +476,62 @@ validation (grouping on jBPM)
       <exclusiveGateway gatewayDirection="Converging" id="sid-8190742F-C6DC-4107-82C7-8EE60448F48B">
          <extensionElements>
             <signavio:signavioMetaData metaKey="bgcolor" metaValue="#ffffff"/>
-            <signavio:signavioMetaData metaKey="entscheidungstabelle" metaValue=""/>
-            <signavio:signavioMetaData metaKey="prfung" metaValue=""/>
          </extensionElements>
-         <incoming>sid-CF953FD2-704D-4AE3-9C1A-5EF81BF231A8</incoming>
          <incoming>sid-61FDB1A1-79B4-4C24-8725-DB229D40A728</incoming>
+         <incoming>sid-CF953FD2-704D-4AE3-9C1A-5EF81BF231A8</incoming>
          <outgoing>sid-1210B837-9EDA-40DA-9A35-606F12A0B7A2</outgoing>
       </exclusiveGateway>
       <boundaryEvent attachedToRef="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53" cancelActivity="true" id="sid-D7A45027-78E0-4970-B657-5A31E9104B88" parallelMultiple="false">
-         <documentation id="sid-b0a02d83-d098-484c-888b-6c6e7a727f54">any error gets caught (e.g. credit service not available)
+         <documentation id="sid-66020150-f84f-4fd8-9c31-451824a666a7">any error gets caught (e.g. credit service not available)
 throws Java error for admin user
 </documentation>
          <outgoing>sid-F72E2001-346E-4265-9794-5C1E69A708AE</outgoing>
-         <errorEventDefinition errorRef="sid-eb2d5add-2b86-4335-a605-f82e787d47f7" id="sid-a00afe50-d765-4862-8873-7a9c406016d9"/>
+         <errorEventDefinition errorRef="sid-80504e10-a925-4ed8-81b9-b88ad87b4c8e" id="sid-68cf3017-fa01-4908-ada7-2a304fd9fd83"/>
       </boundaryEvent>
-      <sequenceFlow id="sid-F48C282F-802B-44CA-889B-C766176D13D3" sourceRef="sid-E247B962-5044-4107-86BF-AEC2E6077BF0" targetRef="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-97BA1524-603B-4CEA-9395-C9BC55D3302B" sourceRef="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18" targetRef="sid-A2FD7B20-7D2C-47ED-8A02-F1CF349DA5FC">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-A6DDFDB7-46F5-4F5F-99A9-D9AEA0080182" sourceRef="sid-A2FD7B20-7D2C-47ED-8A02-F1CF349DA5FC" targetRef="sid-D19EBA4C-722D-4970-84E2-8D46A6B0C09A">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-2CDA55EC-4B0B-4CCB-907C-CD5B6E931AD7" sourceRef="sid-C77BC6A0-7FF1-445A-82C0-0C6B5C74AE33" targetRef="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-F72E2001-346E-4265-9794-5C1E69A708AE" sourceRef="sid-D7A45027-78E0-4970-B657-5A31E9104B88" targetRef="sid-B645AC05-92A8-445B-A6B5-C5791AAC230B">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-E4A12DC9-55C7-45F0-90AC-D09FAA759F58" sourceRef="sid-D19EBA4C-722D-4970-84E2-8D46A6B0C09A" targetRef="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-C9350917-AAEB-412A-8ABF-CB49209F6849" sourceRef="sid-B419E41A-4740-400C-94F2-334AC5FCDCCF" targetRef="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-DFA4FD34-B235-4813-833C-21D5D12FD724" sourceRef="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29" targetRef="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-7B4FF0AB-80F9-4241-B4E7-2A758E57D318" sourceRef="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F" targetRef="sid-18F0A558-24FA-4FDD-9974-B41597802145">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-7BC07D4D-64DE-4F31-BDF1-0EDE7EBB8C09" sourceRef="sid-EFA7D286-C7F3-487E-BA06-E988ECEBCF30" targetRef="sid-9B8C1F60-43B9-4597-843C-72D349FD644A">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-FF4EA199-ECDC-4C75-8D42-8587BFC6DA44" sourceRef="sid-7F181066-63F5-4B15-AB64-6736FBD81762" targetRef="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-C6D793AF-E9FF-4555-8126-A7C19DAE0B14" sourceRef="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8" targetRef="sid-0D6A54D3-2326-4305-A323-3FFC8A7C0D12">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-4BEB0618-FC83-4E90-888F-051CB53D9F55" sourceRef="sid-5CEEB474-69D7-49AF-B44F-7166024CEA51" targetRef="sid-0BF49EAB-47C9-4E90-BF02-0DBD3E399CB5">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-62B43310-44D1-4682-B741-C6B033A7E585" name="Yes" sourceRef="sid-18F0A558-24FA-4FDD-9974-B41597802145" targetRef="sid-7F181066-63F5-4B15-AB64-6736FBD81762">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-E568863F-1E57-4DFD-90DE-7CD33C9148AC" sourceRef="sid-68C8F1C9-3EC1-4A4E-AECC-F2CA943872B4" targetRef="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-20CE19F0-6407-49C8-8961-04CC89AB8A88" sourceRef="sid-C88C3477-43D1-4DD7-8196-9BAD15757C9C" targetRef="sid-C77BC6A0-7FF1-445A-82C0-0C6B5C74AE33">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-A39C9252-3F9C-4A87-822E-7A8AC1F09EC5" name="Invalid" sourceRef="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0" targetRef="sid-C88C3477-43D1-4DD7-8196-9BAD15757C9C">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-1DA1E021-3477-4059-9683-6E66454F27E2" name="Denied" sourceRef="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48" targetRef="sid-5CEEB474-69D7-49AF-B44F-7166024CEA51">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-D881681B-9F01-4E56-9A0D-7306E680C67A" name="No" sourceRef="sid-18F0A558-24FA-4FDD-9974-B41597802145" targetRef="sid-EFA7D286-C7F3-487E-BA06-E988ECEBCF30">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-33900317-1E8A-4C24-918B-7616974708CB" sourceRef="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29" targetRef="sid-68C8F1C9-3EC1-4A4E-AECC-F2CA943872B4">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-2D41FC71-3BE7-4F17-AC5F-7E20DFFD9632" name="Not Qualified" sourceRef="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5" targetRef="sid-B419E41A-4740-400C-94F2-334AC5FCDCCF">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-5654713C-899C-4CBB-B17B-B03A4BFFEDD9" name="Qualified" sourceRef="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5" targetRef="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-708E7BF1-26A8-429E-9AF0-2701C8B391C2" name="Sufficient Approval" sourceRef="sid-9B8C1F60-43B9-4597-843C-72D349FD644A" targetRef="sid-7F181066-63F5-4B15-AB64-6736FBD81762">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-CD8F5A1F-A6AF-4E2D-AF2B-3543C19C9E60" name="Low Approval" sourceRef="sid-9B8C1F60-43B9-4597-843C-72D349FD644A" targetRef="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-020C41CF-D0FE-484D-9DDA-8D681643866A" name="Approved" sourceRef="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48" targetRef="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-DC2D949B-6514-4627-A369-233EA47C6E0D" sourceRef="sid-6F7488EF-6EA8-466D-B8CE-F5302F1784D7" targetRef="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-43AA89A4-3FFB-4D3B-BE33-1D2C6A8397A8" sourceRef="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97" targetRef="sid-E247B962-5044-4107-86BF-AEC2E6077BF0">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-CF953FD2-704D-4AE3-9C1A-5EF81BF231A8" name="Valid" sourceRef="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0" targetRef="sid-8190742F-C6DC-4107-82C7-8EE60448F48B">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-1210B837-9EDA-40DA-9A35-606F12A0B7A2" sourceRef="sid-8190742F-C6DC-4107-82C7-8EE60448F48B" targetRef="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-61FDB1A1-79B4-4C24-8725-DB229D40A728" sourceRef="sid-B645AC05-92A8-445B-A6B5-C5791AAC230B" targetRef="sid-8190742F-C6DC-4107-82C7-8EE60448F48B">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
-      <sequenceFlow id="sid-F2341933-0F3E-49F9-8242-825B170EB33C" sourceRef="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53" targetRef="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18">
-         <extensionElements>
-            <signavio:signavioMetaData metaKey="schnittstelleab" metaValue=""/>
-         </extensionElements>
-      </sequenceFlow>
+      <sequenceFlow id="sid-DC2D949B-6514-4627-A369-233EA47C6E0D" sourceRef="sid-6F7488EF-6EA8-466D-B8CE-F5302F1784D7" targetRef="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97"/>
+      <sequenceFlow id="sid-F48C282F-802B-44CA-889B-C766176D13D3" sourceRef="sid-E247B962-5044-4107-86BF-AEC2E6077BF0" targetRef="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0"/>
+      <sequenceFlow id="sid-1210B837-9EDA-40DA-9A35-606F12A0B7A2" sourceRef="sid-8190742F-C6DC-4107-82C7-8EE60448F48B" targetRef="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53"/>
+      <sequenceFlow id="sid-F2341933-0F3E-49F9-8242-825B170EB33C" sourceRef="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53" targetRef="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18"/>
+      <sequenceFlow id="sid-97BA1524-603B-4CEA-9395-C9BC55D3302B" sourceRef="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18" targetRef="sid-A2FD7B20-7D2C-47ED-8A02-F1CF349DA5FC"/>
+      <sequenceFlow id="sid-A6DDFDB7-46F5-4F5F-99A9-D9AEA0080182" sourceRef="sid-A2FD7B20-7D2C-47ED-8A02-F1CF349DA5FC" targetRef="sid-D19EBA4C-722D-4970-84E2-8D46A6B0C09A"/>
+      <sequenceFlow id="sid-2CDA55EC-4B0B-4CCB-907C-CD5B6E931AD7" sourceRef="sid-C77BC6A0-7FF1-445A-82C0-0C6B5C74AE33" targetRef="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97"/>
+      <sequenceFlow id="sid-F72E2001-346E-4265-9794-5C1E69A708AE" sourceRef="sid-D7A45027-78E0-4970-B657-5A31E9104B88" targetRef="sid-B645AC05-92A8-445B-A6B5-C5791AAC230B"/>
+      <sequenceFlow id="sid-61FDB1A1-79B4-4C24-8725-DB229D40A728" sourceRef="sid-B645AC05-92A8-445B-A6B5-C5791AAC230B" targetRef="sid-8190742F-C6DC-4107-82C7-8EE60448F48B"/>
+      <sequenceFlow id="sid-E4A12DC9-55C7-45F0-90AC-D09FAA759F58" sourceRef="sid-D19EBA4C-722D-4970-84E2-8D46A6B0C09A" targetRef="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5"/>
+      <sequenceFlow id="sid-C9350917-AAEB-412A-8ABF-CB49209F6849" sourceRef="sid-B419E41A-4740-400C-94F2-334AC5FCDCCF" targetRef="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29"/>
+      <sequenceFlow id="sid-DFA4FD34-B235-4813-833C-21D5D12FD724" name="Yes" sourceRef="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29" targetRef="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18"/>
+      <sequenceFlow id="sid-7B4FF0AB-80F9-4241-B4E7-2A758E57D318" sourceRef="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F" targetRef="sid-18F0A558-24FA-4FDD-9974-B41597802145"/>
+      <sequenceFlow id="sid-7BC07D4D-64DE-4F31-BDF1-0EDE7EBB8C09" sourceRef="sid-EFA7D286-C7F3-487E-BA06-E988ECEBCF30" targetRef="sid-9B8C1F60-43B9-4597-843C-72D349FD644A"/>
+      <sequenceFlow id="sid-FF4EA199-ECDC-4C75-8D42-8587BFC6DA44" sourceRef="sid-7F181066-63F5-4B15-AB64-6736FBD81762" targetRef="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8"/>
+      <sequenceFlow id="sid-C6D793AF-E9FF-4555-8126-A7C19DAE0B14" sourceRef="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8" targetRef="sid-0D6A54D3-2326-4305-A323-3FFC8A7C0D12"/>
+      <sequenceFlow id="sid-4BEB0618-FC83-4E90-888F-051CB53D9F55" sourceRef="sid-5CEEB474-69D7-49AF-B44F-7166024CEA51" targetRef="sid-0BF49EAB-47C9-4E90-BF02-0DBD3E399CB5"/>
+      <sequenceFlow id="sid-62B43310-44D1-4682-B741-C6B033A7E585" name="Yes" sourceRef="sid-18F0A558-24FA-4FDD-9974-B41597802145" targetRef="sid-7F181066-63F5-4B15-AB64-6736FBD81762"/>
+      <sequenceFlow id="sid-E568863F-1E57-4DFD-90DE-7CD33C9148AC" sourceRef="sid-68C8F1C9-3EC1-4A4E-AECC-F2CA943872B4" targetRef="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48"/>
+      <sequenceFlow id="sid-43AA89A4-3FFB-4D3B-BE33-1D2C6A8397A8" sourceRef="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97" targetRef="sid-E247B962-5044-4107-86BF-AEC2E6077BF0"/>
+      <sequenceFlow id="sid-20CE19F0-6407-49C8-8961-04CC89AB8A88" sourceRef="sid-C88C3477-43D1-4DD7-8196-9BAD15757C9C" targetRef="sid-C77BC6A0-7FF1-445A-82C0-0C6B5C74AE33"/>
+      <sequenceFlow id="sid-A39C9252-3F9C-4A87-822E-7A8AC1F09EC5" name="Invalid" sourceRef="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0" targetRef="sid-C88C3477-43D1-4DD7-8196-9BAD15757C9C"/>
+      <sequenceFlow id="sid-CF953FD2-704D-4AE3-9C1A-5EF81BF231A8" name="Valid" sourceRef="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0" targetRef="sid-8190742F-C6DC-4107-82C7-8EE60448F48B"/>
+      <sequenceFlow id="sid-1DA1E021-3477-4059-9683-6E66454F27E2" name="Denied" sourceRef="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48" targetRef="sid-5CEEB474-69D7-49AF-B44F-7166024CEA51"/>
+      <sequenceFlow id="sid-D881681B-9F01-4E56-9A0D-7306E680C67A" name="No" sourceRef="sid-18F0A558-24FA-4FDD-9974-B41597802145" targetRef="sid-EFA7D286-C7F3-487E-BA06-E988ECEBCF30"/>
+      <sequenceFlow id="sid-33900317-1E8A-4C24-918B-7616974708CB" name="No" sourceRef="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29" targetRef="sid-68C8F1C9-3EC1-4A4E-AECC-F2CA943872B4"/>
+      <sequenceFlow id="sid-2D41FC71-3BE7-4F17-AC5F-7E20DFFD9632" name="No" sourceRef="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5" targetRef="sid-B419E41A-4740-400C-94F2-334AC5FCDCCF"/>
+      <sequenceFlow id="sid-5654713C-899C-4CBB-B17B-B03A4BFFEDD9" name="Yes" sourceRef="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5" targetRef="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F"/>
+      <sequenceFlow id="sid-708E7BF1-26A8-429E-9AF0-2701C8B391C2" name="Yes" sourceRef="sid-9B8C1F60-43B9-4597-843C-72D349FD644A" targetRef="sid-7F181066-63F5-4B15-AB64-6736FBD81762"/>
+      <sequenceFlow id="sid-CD8F5A1F-A6AF-4E2D-AF2B-3543C19C9E60" name="No" sourceRef="sid-9B8C1F60-43B9-4597-843C-72D349FD644A" targetRef="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18"/>
+      <sequenceFlow id="sid-020C41CF-D0FE-484D-9DDA-8D681643866A" name="Approved" sourceRef="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48" targetRef="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F"/>
    </process>
-   <bpmndi:BPMNDiagram documentation="Describe scope goals of mortgage demo (or example process) and what has to be done on jBPM side. Mind that you model a &quot;base model&quot; and enrich it on the jBPM side with attributes, rules etc.&#10;&#10;&#10;&quot;Shiny modeling on our side, big guns for tech stuff on jBPM side.&quot;&#10;Credit service (web service) used on jBPM side.&#10;No swimlanes or pools&#10;Initial/Entry data (e.g. need mortgage applicant, social security number, income)&#10;Property needed (eg. &quot;the house&quot;)&#10;adress, sales price&#10;down payment, ammortization&#10;" id="sid-ba324c9b-7946-4f35-829d-9ddaac078070">
-      <bpmndi:BPMNPlane bpmnElement="sid-90b98641-2421-4f1e-b4b6-56afc22f703d" id="sid-0b24ba04-15a4-45d6-9828-883e5da2af8d">
+   <bpmndi:BPMNDiagram documentation="Red Hat and Signavio have partnered to make it easy for business analysts and developers to collaborate&#10;on the design, analysis and automation of business processes. Process models can be built using&#10;all the capabilities of the Signavio Process Editor, and then exported to JBoss BPM Suite for refinement&#10;and execution." id="sid-afb6085e-ef64-4bbf-8cd6-77058117602c">
+      <bpmndi:BPMNPlane bpmnElement="sid-6798d022-e2f4-4e76-9bb5-6a634c2f5997" id="sid-e6550ffb-6981-433d-9c7e-c4c077b179e3">
          <bpmndi:BPMNShape bpmnElement="sid-6F7488EF-6EA8-466D-B8CE-F5302F1784D7" id="sid-6F7488EF-6EA8-466D-B8CE-F5302F1784D7_gui">
             <omgdc:Bounds height="30.0" width="30.0" x="105.0" y="375.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="22.0" width="97.5857162475586" x="71.2071418762207" y="407.0"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53" id="sid-A7136FBC-EE8B-45BA-A406-CD847E749B53_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="610.0" y="350.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="12.0" width="73.28571319580078" x="623.3571434020996" y="382.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="24.0" width="84.85714721679688" x="617.5714263916016" y="376.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18" id="sid-5F3D9655-CCEB-493E-B16E-536D55CDAF18_gui" isMarkerVisible="true">
@@ -827,41 +539,47 @@ throws Java error for admin user
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-A2FD7B20-7D2C-47ED-8A02-F1CF349DA5FC" id="sid-A2FD7B20-7D2C-47ED-8A02-F1CF349DA5FC_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="840.0" y="350.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="24.0" width="64.02857208251953" x="857.9857139587402" y="376.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="36.0" width="50.91429138183594" x="864.542854309082" y="370.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-D19EBA4C-722D-4970-84E2-8D46A6B0C09A" id="sid-D19EBA4C-722D-4970-84E2-8D46A6B0C09A_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="1050.0" y="350.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="12.0" width="90.25714111328125" x="1054.8714294433594" y="382.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="36.0" width="89.4857177734375" x="1055.2571411132812" y="370.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-B645AC05-92A8-445B-A6B5-C5791AAC230B" id="sid-B645AC05-92A8-445B-A6B5-C5791AAC230B_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="612.176045570515" y="490.71923828125"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
                <omgdc:Bounds height="12.0" width="72.5142822265625" x="625.9189044572338" y="522.71923828125"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5" id="sid-8AEEAC66-3EC2-4C87-A61F-948A78E69BA5_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="1080.0" y="249.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="24.0" width="113.39999389648438" x="1043.3000030517578" y="217.0"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F" id="sid-2090181D-6757-40FC-ADFB-ADCEFEC4E76F_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="1195.0" y="249.0"/>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48" id="sid-8C95AB8B-EC41-41FB-92B2-CAD3DE30AA48_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="1195.0" y="95.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="12.0" width="87.94285583496094" x="1171.0285720825195" y="75.0"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-18F0A558-24FA-4FDD-9974-B41597802145" id="sid-18F0A558-24FA-4FDD-9974-B41597802145_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="1195.0" y="370.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
-               <omgdc:Bounds height="12.0" width="55.54286193847656" x="1225.5" y="400.5"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="24.0" width="91.80000305175781" x="1225.5" y="400.5"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-EFA7D286-C7F3-487E-BA06-E988ECEBCF30" id="sid-EFA7D286-C7F3-487E-BA06-E988ECEBCF30_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="1165.0" y="533.71923828125"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="12.0" width="49.371429443359375" x="1190.3142852783203" y="565.71923828125"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="36.0" width="50.142852783203125" x="1189.9285736083984" y="553.71923828125"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-7F181066-63F5-4B15-AB64-6736FBD81762" id="sid-7F181066-63F5-4B15-AB64-6736FBD81762_gui" isMarkerVisible="true">
@@ -869,50 +587,62 @@ throws Java error for admin user
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-9B8C1F60-43B9-4597-843C-72D349FD644A" id="sid-9B8C1F60-43B9-4597-843C-72D349FD644A_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="1350.0" y="553.71923828125"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="12.0" width="109.5428466796875" x="1380.5" y="584.21923828125"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8" id="sid-F16147BD-0C12-41F3-A114-EB1988DF15B8_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="1435.0" y="350.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="24.0" width="50.91429138183594" x="1459.542854309082" y="376.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="24.0" width="45.5142822265625" x="1462.2428588867188" y="376.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-0D6A54D3-2326-4305-A323-3FFC8A7C0D12" id="sid-0D6A54D3-2326-4305-A323-3FFC8A7C0D12_gui">
             <omgdc:Bounds height="28.0" width="28.0" x="1580.0" y="376.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="11.0" width="98.29285430908203" x="1544.853572845459" y="406.0"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-5CEEB474-69D7-49AF-B44F-7166024CEA51" id="sid-5CEEB474-69D7-49AF-B44F-7166024CEA51_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="1435.0" y="75.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="12.0" width="82.5428466796875" x="1443.7285766601562" y="107.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="12.0" width="75.5999984741211" x="1447.2000007629395" y="107.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-0BF49EAB-47C9-4E90-BF02-0DBD3E399CB5" id="sid-0BF49EAB-47C9-4E90-BF02-0DBD3E399CB5_gui">
             <omgdc:Bounds height="28.0" width="28.0" x="1580.0" y="101.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="11.0" width="84.1500015258789" x="1551.9249992370605" y="131.0"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-C88C3477-43D1-4DD7-8196-9BAD15757C9C" id="sid-C88C3477-43D1-4DD7-8196-9BAD15757C9C_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="410.0" y="212.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
                <omgdc:Bounds height="12.0" width="87.17141723632812" x="416.41429138183594" y="244.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-B419E41A-4740-400C-94F2-334AC5FCDCCF" id="sid-B419E41A-4740-400C-94F2-334AC5FCDCCF_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="840.0" y="229.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
                <omgdc:Bounds height="36.0" width="80.22857666015625" x="849.8857116699219" y="249.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29" id="sid-A3850A4E-9C7F-481F-A21C-D7AFF5801E29_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="755.0" y="249.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="12.0" width="108.77143096923828" x="654.6142845153809" y="282.0"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-68C8F1C9-3EC1-4A4E-AECC-F2CA943872B4" id="sid-68C8F1C9-3EC1-4A4E-AECC-F2CA943872B4_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="725.0" y="75.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="24.0" width="85.62857055664062" x="732.1857147216797" y="101.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="24.0" width="91.80000305175781" x="729.0999984741211" y="101.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-C77BC6A0-7FF1-445A-82C0-0C6B5C74AE33" id="sid-C77BC6A0-7FF1-445A-82C0-0C6B5C74AE33_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="180.0" y="212.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="12.0" width="85.62857055664062" x="187.1857147216797" y="244.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="12.0" width="69.42857360839844" x="195.28571319580078" y="244.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97" id="sid-BF037A7B-3E11-4A74-89BA-FB49C257BE97_gui" isMarkerVisible="true">
@@ -920,12 +650,15 @@ throws Java error for admin user
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-E247B962-5044-4107-86BF-AEC2E6077BF0" id="sid-E247B962-5044-4107-86BF-AEC2E6077BF0_gui">
             <omgdc:Bounds height="80.0" width="100.0" x="295.0" y="350.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
-               <omgdc:Bounds height="12.0" width="52.45713806152344" x="318.7714309692383" y="382.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
+               <omgdc:Bounds height="24.0" width="58.628570556640625" x="315.6857147216797" y="376.0"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0" id="sid-36A9BA6F-BE97-4437-94CD-89AF3A8354F0_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="438.8710521568265" y="370.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="12.0" width="92.57142639160156" x="412.58533896102574" y="415.0"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNShape>
          <bpmndi:BPMNShape bpmnElement="sid-8190742F-C6DC-4107-82C7-8EE60448F48B" id="sid-8190742F-C6DC-4107-82C7-8EE60448F48B_gui" isMarkerVisible="true">
             <omgdc:Bounds height="40.0" width="40.0" x="525.0" y="370.0"/>
@@ -933,9 +666,21 @@ throws Java error for admin user
          <bpmndi:BPMNShape bpmnElement="sid-D7A45027-78E0-4970-B657-5A31E9104B88" id="sid-D7A45027-78E0-4970-B657-5A31E9104B88_gui">
             <omgdc:Bounds height="30.0" width="30.0" x="647.1621621621622" y="415.0"/>
          </bpmndi:BPMNShape>
+         <bpmndi:BPMNEdge bpmnElement="sid-DC2D949B-6514-4627-A369-233EA47C6E0D" id="sid-DC2D949B-6514-4627-A369-233EA47C6E0D_gui">
+            <omgdi:waypoint x="135.0" y="390.0678733031674"/>
+            <omgdi:waypoint x="210.0" y="390.40723981900453"/>
+         </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-F48C282F-802B-44CA-889B-C766176D13D3" id="sid-F48C282F-802B-44CA-889B-C766176D13D3_gui">
             <omgdi:waypoint x="395.0" y="390.2185867798586"/>
             <omgdi:waypoint x="438.8710521568265" y="390.410379420258"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-1210B837-9EDA-40DA-9A35-606F12A0B7A2" id="sid-1210B837-9EDA-40DA-9A35-606F12A0B7A2_gui">
+            <omgdi:waypoint x="565.0" y="390.414847161572"/>
+            <omgdi:waypoint x="610.0" y="390.2183406113537"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-F2341933-0F3E-49F9-8242-825B170EB33C" id="sid-F2341933-0F3E-49F9-8242-825B170EB33C_gui">
+            <omgdi:waypoint x="710.0" y="390.2164502164502"/>
+            <omgdi:waypoint x="755.0" y="390.4112554112554"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-97BA1524-603B-4CEA-9395-C9BC55D3302B" id="sid-97BA1524-603B-4CEA-9395-C9BC55D3302B_gui">
             <omgdi:waypoint x="795.0" y="390.414847161572"/>
@@ -953,6 +698,11 @@ throws Java error for admin user
             <omgdi:waypoint x="662.1642298021568" y="445.0"/>
             <omgdi:waypoint x="662.1705318638628" y="490.71923828125"/>
          </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-61FDB1A1-79B4-4C24-8725-DB229D40A728" id="sid-61FDB1A1-79B4-4C24-8725-DB229D40A728_gui">
+            <omgdi:waypoint x="612.176045570515" y="530.71923828125"/>
+            <omgdi:waypoint x="545.5" y="530.71923828125"/>
+            <omgdi:waypoint x="545.5" y="410.0"/>
+         </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-E4A12DC9-55C7-45F0-90AC-D09FAA759F58" id="sid-E4A12DC9-55C7-45F0-90AC-D09FAA759F58_gui">
             <omgdi:waypoint x="1100.1659751037344" y="350.0"/>
             <omgdi:waypoint x="1100.4190871369294" y="289.0"/>
@@ -964,6 +714,9 @@ throws Java error for admin user
          <bpmndi:BPMNEdge bpmnElement="sid-DFA4FD34-B235-4813-833C-21D5D12FD724" id="sid-DFA4FD34-B235-4813-833C-21D5D12FD724_gui">
             <omgdi:waypoint x="775.5" y="289.0"/>
             <omgdi:waypoint x="775.5" y="370.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="19.28570556640625" width="12.0" x="755.5" y="261.71429443359375"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-7B4FF0AB-80F9-4241-B4E7-2A758E57D318" id="sid-7B4FF0AB-80F9-4241-B4E7-2A758E57D318_gui">
             <omgdi:waypoint x="1215.5" y="289.0"/>
@@ -988,13 +741,17 @@ throws Java error for admin user
          <bpmndi:BPMNEdge bpmnElement="sid-62B43310-44D1-4682-B741-C6B033A7E585" id="sid-62B43310-44D1-4682-B741-C6B033A7E585_gui">
             <omgdi:waypoint x="1235.0" y="390.5"/>
             <omgdi:waypoint x="1350.0" y="390.5"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
                <omgdc:Bounds height="12.0" width="19.2857666015625" x="1243.0" y="370.5"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-E568863F-1E57-4DFD-90DE-7CD33C9148AC" id="sid-E568863F-1E57-4DFD-90DE-7CD33C9148AC_gui">
             <omgdi:waypoint x="825.0" y="115.05675368898979"/>
             <omgdi:waypoint x="1195.0" y="115.47673098751419"/>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-43AA89A4-3FFB-4D3B-BE33-1D2C6A8397A8" id="sid-43AA89A4-3FFB-4D3B-BE33-1D2C6A8397A8_gui">
+            <omgdi:waypoint x="250.0" y="390.414847161572"/>
+            <omgdi:waypoint x="295.0" y="390.2183406113537"/>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-20CE19F0-6407-49C8-8961-04CC89AB8A88" id="sid-20CE19F0-6407-49C8-8961-04CC89AB8A88_gui">
             <omgdi:waypoint x="410.0" y="252.0"/>
@@ -1003,47 +760,57 @@ throws Java error for admin user
          <bpmndi:BPMNEdge bpmnElement="sid-A39C9252-3F9C-4A87-822E-7A8AC1F09EC5" id="sid-A39C9252-3F9C-4A87-822E-7A8AC1F09EC5_gui">
             <omgdi:waypoint x="459.0" y="370.0"/>
             <omgdi:waypoint x="459.0" y="292.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
                <omgdc:Bounds height="34.71429443359375" width="12.0" x="438.9999500404391" y="327.6567577232328"/>
+            </bpmndi:BPMNLabel>
+         </bpmndi:BPMNEdge>
+         <bpmndi:BPMNEdge bpmnElement="sid-CF953FD2-704D-4AE3-9C1A-5EF81BF231A8" id="sid-CF953FD2-704D-4AE3-9C1A-5EF81BF231A8_gui">
+            <omgdi:waypoint x="478.8710521568265" y="390.5"/>
+            <omgdi:waypoint x="525.0" y="390.5"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="12.0" width="25.457122802734375" x="486.8710021972656" y="370.5"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-1DA1E021-3477-4059-9683-6E66454F27E2" id="sid-1DA1E021-3477-4059-9683-6E66454F27E2_gui">
             <omgdi:waypoint x="1235.0" y="115.46382189239333"/>
             <omgdi:waypoint x="1435.0" y="115.09276437847866"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
                <omgdc:Bounds height="12.06867314907754" width="37.050762617595865" x="1242.9288256832451" y="95.38049570135047"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-D881681B-9F01-4E56-9A0D-7306E680C67A" id="sid-D881681B-9F01-4E56-9A0D-7306E680C67A_gui">
             <omgdi:waypoint x="1215.4467850642134" y="410.0"/>
             <omgdi:waypoint x="1215.109158842639" y="533.71923828125"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
                <omgdc:Bounds height="14.689800354125339" width="12.039957538216868" x="1195.385661968126" y="387.3471732195569"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-33900317-1E8A-4C24-918B-7616974708CB" id="sid-33900317-1E8A-4C24-918B-7616974708CB_gui">
             <omgdi:waypoint x="775.0" y="249.0"/>
             <omgdi:waypoint x="775.0" y="155.0"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="14.65716552734375" width="12.0" x="755.0" y="226.84283447265625"/>
+            </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-2D41FC71-3BE7-4F17-AC5F-7E20DFFD9632" id="sid-2D41FC71-3BE7-4F17-AC5F-7E20DFFD9632_gui">
             <omgdi:waypoint x="1080.0" y="269.45130641330167"/>
             <omgdi:waypoint x="940.0" y="269.1187648456057"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
-               <omgdc:Bounds height="12.163045387517485" width="68.68541406692168" x="1003.4395684001594" y="249.26896466536934"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="12.034780745810451" width="14.685566398787614" x="1057.4394160682934" y="249.39722930707643"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-5654713C-899C-4CBB-B17B-B03A4BFFEDD9" id="sid-5654713C-899C-4CBB-B17B-B03A4BFFEDD9_gui">
             <omgdi:waypoint x="1120.0" y="269.5"/>
             <omgdi:waypoint x="1195.0" y="269.5"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
-               <omgdc:Bounds height="12.0" width="45.5142822265625" x="1128.0" y="249.5"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="12.0" width="19.2857666015625" x="1128.0" y="249.5"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-708E7BF1-26A8-429E-9AF0-2701C8B391C2" id="sid-708E7BF1-26A8-429E-9AF0-2701C8B391C2_gui">
             <omgdi:waypoint x="1370.5" y="553.71923828125"/>
             <omgdi:waypoint x="1370.5" y="410.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
-               <omgdc:Bounds height="101.82861328125" width="12.0" x="1350.499755859375" y="443.890625"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="19.2857666015625" width="12.0" x="1350.499755859375" y="526.4334716796875"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-CD8F5A1F-A6AF-4E2D-AF2B-3543C19C9E60" id="sid-CD8F5A1F-A6AF-4E2D-AF2B-3543C19C9E60_gui">
@@ -1051,50 +818,22 @@ throws Java error for admin user
             <omgdi:waypoint x="1370.5" y="688.0"/>
             <omgdi:waypoint x="775.5" y="688.0"/>
             <omgdi:waypoint x="775.5" y="410.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
-               <omgdc:Bounds height="73.2857666015625" width="12.0" x="1350.499755859375" y="512.4334716796875"/>
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
+               <omgdc:Bounds height="14.6571044921875" width="12.0" x="1350.499755859375" y="571.0621337890625"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
          <bpmndi:BPMNEdge bpmnElement="sid-020C41CF-D0FE-484D-9DDA-8D681643866A" id="sid-020C41CF-D0FE-484D-9DDA-8D681643866A_gui">
             <omgdi:waypoint x="1215.5" y="135.0"/>
             <omgdi:waypoint x="1215.5" y="249.0"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
+            <bpmndi:BPMNLabel labelStyle="sid-8334802b-342b-4842-a458-84b05bb98602">
                <omgdc:Bounds height="52.4571533203125" width="12.0" x="1195.5" y="74.5428466796875"/>
             </bpmndi:BPMNLabel>
          </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-DC2D949B-6514-4627-A369-233EA47C6E0D" id="sid-DC2D949B-6514-4627-A369-233EA47C6E0D_gui">
-            <omgdi:waypoint x="135.0" y="390.0678733031674"/>
-            <omgdi:waypoint x="210.0" y="390.40723981900453"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-43AA89A4-3FFB-4D3B-BE33-1D2C6A8397A8" id="sid-43AA89A4-3FFB-4D3B-BE33-1D2C6A8397A8_gui">
-            <omgdi:waypoint x="250.0" y="390.414847161572"/>
-            <omgdi:waypoint x="295.0" y="390.2183406113537"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-CF953FD2-704D-4AE3-9C1A-5EF81BF231A8" id="sid-CF953FD2-704D-4AE3-9C1A-5EF81BF231A8_gui">
-            <omgdi:waypoint x="478.8710521568265" y="390.5"/>
-            <omgdi:waypoint x="525.0" y="390.5"/>
-            <bpmndi:BPMNLabel labelStyle="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
-               <omgdc:Bounds height="12.0" width="25.457122802734375" x="486.8710021972656" y="370.5"/>
-            </bpmndi:BPMNLabel>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-1210B837-9EDA-40DA-9A35-606F12A0B7A2" id="sid-1210B837-9EDA-40DA-9A35-606F12A0B7A2_gui">
-            <omgdi:waypoint x="565.0" y="390.414847161572"/>
-            <omgdi:waypoint x="610.0" y="390.2183406113537"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-61FDB1A1-79B4-4C24-8725-DB229D40A728" id="sid-61FDB1A1-79B4-4C24-8725-DB229D40A728_gui">
-            <omgdi:waypoint x="612.176045570515" y="530.71923828125"/>
-            <omgdi:waypoint x="545.5" y="530.71923828125"/>
-            <omgdi:waypoint x="545.5" y="410.0"/>
-         </bpmndi:BPMNEdge>
-         <bpmndi:BPMNEdge bpmnElement="sid-F2341933-0F3E-49F9-8242-825B170EB33C" id="sid-F2341933-0F3E-49F9-8242-825B170EB33C_gui">
-            <omgdi:waypoint x="710.0" y="390.2164502164502"/>
-            <omgdi:waypoint x="755.0" y="390.4112554112554"/>
-         </bpmndi:BPMNEdge>
       </bpmndi:BPMNPlane>
-      <bpmndi:BPMNLabelStyle id="sid-ea518e7e-2e1d-4d1b-8c13-bfafe7e060f8">
+      <bpmndi:BPMNLabelStyle id="sid-8334802b-342b-4842-a458-84b05bb98602">
          <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="11.0"/>
       </bpmndi:BPMNLabelStyle>
-      <bpmndi:BPMNLabelStyle id="sid-22cde34a-e0f4-4da1-bf07-9642f772bd3c">
+      <bpmndi:BPMNLabelStyle id="sid-db1e1490-cdf6-42e9-81d4-b06b5d194bd1">
          <omgdc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Arial" size="12.0"/>
       </bpmndi:BPMNLabelStyle>
    </bpmndi:BPMNDiagram>
