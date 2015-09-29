@@ -37,11 +37,13 @@ Install on your machine
 
 Supporting Articles
 -------------------
-[How You Can Change JBoss BPM Suite the Open Source Way](http://www.schabell.org/2015/08/howto-change-jboss-bpms-opensource-way.html)
+- [7 Steps to Your First Process with JBoss BPM Suite Starter Kit](http://www.schabell.org/2015/08/7-steps-first-process-jboss-bpmsuite-starter-kit.html)
 
-[Webinar: Developing process-enabled applications with BPA and BPM tools](http://www.schabell.org/2015/07/webinar-developing-jboss-bpms-enabled-apps-with-signavio.html)
+- [How You Can Change JBoss BPM Suite the Open Source Way](http://www.schabell.org/2015/08/howto-change-jboss-bpms-opensource-way.html)
 
-[From Design to Execution with JBoss BPM Suite & Signavio Process Editor](http://www.schabell.org/2015/06/design-to-execution-with-jboss-bpmsuite-signavio.html)
+- [Webinar: Developing process-enabled applications with BPA and BPM tools](http://www.schabell.org/2015/07/webinar-developing-jboss-bpms-enabled-apps-with-signavio.html)
+
+- [From Design to Execution with JBoss BPM Suite & Signavio Process Editor](http://www.schabell.org/2015/06/design-to-execution-with-jboss-bpmsuite-signavio.html)
 
 
 Released versions
