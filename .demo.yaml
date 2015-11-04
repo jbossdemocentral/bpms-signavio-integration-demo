@@ -1,5 +1,5 @@
 id: jbossdemocentral-bpms-signavio-integration
-title: Example integration with JBoss BPM Suite and Signavio Process Editor.
+title: JBoss BPM Suite Signavio Integration Demo
 github_repo_url: https://github.com/jbossdemocentral/bpms-signavio-integration-demo
 technologies:
   - JBoss EAP
