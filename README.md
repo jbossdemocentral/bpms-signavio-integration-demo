@@ -50,7 +50,7 @@ Released versions
 -----------------
 See the tagged releases for the following versions of the product:
 
-- v1.4 - JBoss BPM Suite 6.2.0, JBoss EAP 6.4.3, Signavio Process Editor 8.6.0, and mortgage demo installed with Signavio designed process second iteration for import, update docs.
+- v1.4 - JBoss BPM Suite 6.2.0, JBoss EAP 6.4.4, Signavio Process Editor 8.6.0, and mortgage demo installed with Signavio designed process second iteration for import, update docs.
 
 - v1.3 - JBoss BPM Suite 6.1.0, Signavio Process Editor 8.6.0, and mortgage demo installed with Signavio designed process second iteration for import, update docs.
 
