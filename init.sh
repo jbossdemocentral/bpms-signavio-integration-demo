@@ -129,7 +129,7 @@ echo "  - setting up demo projects..."
 echo
 cp -r $SUPPORT_DIR/bpm-suite-demo-niogit $SERVER_BIN/.niogit
 
-echo "Deploying web service that pulls out credit report of customer based on SSN..."
+echo "  - deploying web service that pulls out credit report of customer based on SSN..."
 echo
 cp $SUPPORT_DIR/$WEBSERVICE $SERVER_DIR
 
